@@ -1,0 +1,33 @@
+PODS:
+  - RxAlertAction (1.0.0):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxCocoa (5.1.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.0)
+
+DEPENDENCIES:
+  - RxAlertAction (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  RxAlertAction:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RxAlertAction: 7d6cbcbc6ee9eca9e0886a0581d7bd7ee14acef8
+  RxCocoa: 13d2a4d7546a34b8ececae8c281e4ea1dbb94f2b
+  RxRelay: a168bd6caf712d00c676ac344e9295afc93b418e
+  RxSwift: ad5874f24bb0dbffd1e9bb8443604e3578796c7a
+
+PODFILE CHECKSUM: a53eb2bfdc206c4c09839dc170148b3473b9c618
+
+COCOAPODS: 1.8.4
